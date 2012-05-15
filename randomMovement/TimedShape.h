@@ -9,5 +9,6 @@
 #import "C4Shape.h"
 
 @interface TimedShape : C4Shape
+-(id)initWithTimedShape:(TimedShape *)ts;
 -(void)changePosition;
 @end
